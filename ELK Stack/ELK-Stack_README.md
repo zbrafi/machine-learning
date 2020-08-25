@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below;
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .YML file may be used to install only certain pieces of it, such as Filebeat.
 
-  - Install-ELK.YML
+  - Install-ELK.YML [ELK](https://raw.githubusercontent.com/zbrafi/machine-learning/master/ELK%20Stack/Playbooks/Ansible_Playbooks_config.yml?token=APBHLTLS6IZZPYEWELAJRP27ISBNY)
   - Ansible-Playbook_config.YML
   - Filebeat-Playbook.YML
   - Metricbeat-Playbook.YML
@@ -78,11 +78,11 @@ The playbook implements the following tasks: (more details can be found in the p
 - Use more memory
 - Download and launch elk container
 
-[https://github.com/zbrafi/machine-learning/blob/master/ELK%20Stack/Diagrams/Setup%20Diagrams/install-ELK.png](install-ELK.png)
+[install-ELK.png] (https://github.com/zbrafi/machine-learning/blob/master/ELK%20Stack/Diagrams/Setup%20Diagrams/install-ELK.png)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[https://github.com/zbrafi/machine-learning/blob/master/ELK%20Stack/Diagrams/Setup%20Diagrams/docker-ps.png](docker_ps.png)
+(https://github.com/zbrafi/machine-learning/blob/master/ELK%20Stack/Diagrams/Setup%20Diagrams/docker-ps.png)[docker_ps.png]
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
