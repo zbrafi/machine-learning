@@ -78,11 +78,11 @@ The playbook implements the following tasks: (more details can be found in the p
 - Use more memory
 - Download and launch elk container
 
-![TODO: Update the path with the name of your screenshot of docker ps output](install-ELK.png)
+[https://github.com/zbrafi/machine-learning/blob/master/ELK%20Stack/Diagrams/Setup%20Diagrams/install-ELK.png](install-ELK.png)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](docker_ps.png)
+[https://github.com/zbrafi/machine-learning/blob/master/ELK%20Stack/Diagrams/Setup%20Diagrams/docker-ps.png](docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
